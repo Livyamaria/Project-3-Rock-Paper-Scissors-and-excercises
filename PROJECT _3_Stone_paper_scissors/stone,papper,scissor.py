@@ -38,10 +38,10 @@ scissors = '''
 import random
 hands=[paper,rock,scissors]
 computer_choose=random.randint(0,2)
-print(hands[computer_choose])
 user_choose=int(input("Hey User! you can start choosing .which choice do you want? \n"
                   "for paper enter 0,for rock enter 1 or for scissors enter 2 : "))
 print(hands[user_choose])
+print(hands[computer_choose])
 if computer_choose==user_choose:
     print(f"game is draw")
 if computer_choose==0 and user_choose==1:
